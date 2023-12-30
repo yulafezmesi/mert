@@ -1,5 +1,5 @@
 <template>
-  <main class="max-w-2xl flex flex-col gap-8 py-16 mx-auto w-full">
+  <main class="max-w-2xl flex flex-col gap-8 py-8 sm:px-0 px-4 sm:py-16 mx-auto w-full">
     <section class="flex flex-col gap-3">
       <div class="flex justify-between w-full">
         <div class="flex gap-1.5 flex-col flex-1">
@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="relative flex shrink-0 overflow-hidden rounded-xl h-28 w-28">
-          <img class="aspect-square h-full w-full" alt="Mert Certel" src="/avatar.png">
+          <img width="112" height="112" class="aspect-square h-full w-full" alt="Mert Certel" src="/avatar.png">
         </div>
       </div>
     </section>
@@ -48,12 +48,12 @@
                   {{ item.company }}
                 </Component>
                 <span v-if="item.remote" class="inline-flex gap-x-1">
-                  <div class="bg-blue-100 text-xs rounded-md py-0.5 px-2">
-                    <p class="text-blue-600 font-medium">Remote</p>
+                  <div class="bg-blue-200 text-xs rounded-md py-0.5 px-2">
+                    <p class="text-blue-800 font-medium">Remote</p>
                   </div>
                 </span>
               </h3>
-              <div class="text-sm tabular-nums text-slate-600">
+              <div class="text-sm tabular-nums text-slate-700">
                 {{ item.start }}<!-- --> - <!-- --> {{ item.end }}
               </div>
             </div><h4 class="text-sm leading-none">
@@ -97,7 +97,7 @@
       <h2 class="text-xl font-bold">
         Projects
       </h2>
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid sm:grid-cols-2 gap-4">
         <div v-for="project in projects" :key="project.title" class="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
           <div class="flex flex-col space-y-1.5">
             <div class="space-y-1">
