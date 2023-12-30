@@ -1,16 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const meta = {
+  description: 'Mert Certel is a frontend developer based in Turkey.',
+}
+
 export default defineNuxtConfig({
   app: {
     head: {
       title: 'Mert Certel',
       meta: [
         {
+          name: 'description',
+          content: meta.description,
+        },
+        {
           property: 'og:title',
           content: 'Mert Certel',
         },
         {
           property: 'og:description',
-          content: 'Mert Certel is a frontend developer based in Turkey.',
+          content: meta.description,
         },
         {
           property: 'og:image',
@@ -46,7 +54,7 @@ export default defineNuxtConfig({
         },
         {
           name: 'twitter:description',
-          content: 'Mert Certel is a frontend developer based in Turkey.',
+          content: meta.description,
         },
         {
           name: 'twitter:image',
@@ -78,7 +86,7 @@ export default defineNuxtConfig({
         },
         {
           name: 'twitter:description',
-          content: 'Mert Certel is a frontend developer based in Turkey.',
+          content: meta.description,
         },
         {
           name: 'twitter:image',
