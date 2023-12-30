@@ -10,9 +10,8 @@
             Detail-Oriented Frontend Developer
           </h2>
           <address class="text-xs text-slate-700">
-            <a class="inline-flex gap-x-1.5 align-baseline leading-none hover:underline" href="https://www.google.com/maps/place/Turkey" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe h-3 w-3"><circle cx="12" cy="12" r="10" /><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
-              <path d="M2 12h20" />
-            </svg>
+            <a class="inline-flex gap-x-1.5 align-baseline leading-none hover:underline" href="https://www.google.com/maps/place/Turkey" target="_blank">
+              <span class="i-tabler-world" />
               Turkey
             </a>
           </address>
@@ -74,7 +73,7 @@
           <div class="flex items-center justify-between gap-x-2 text-base">
             <h3 class="font-semibold leading-none">
               Pamukkale University
-            </h3><div class="text-sm tabular-nums text-gray-500">
+            </h3><div class="text-sm tabular-nums text-slate-700">
               2010<!-- --> - <!-- -->2012
             </div>
           </div>
@@ -88,8 +87,8 @@
         Skills
       </h2>
       <div class="flex flex-wrap gap-1">
-        <div v-for="i in skills" :key="i" class="bg-neutral-800 text-neutral-200 inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent">
-          {{ i }}
+        <div v-for="i in skills" :key="i.name" :class="i.class" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent">
+          {{ i.name }}
         </div>
       </div>
     </section>

@@ -67,7 +67,36 @@ export const experience = [
   },
 ]
 
-export const skills = ['JavasScript', 'TypeScript', 'CSS', 'Vue/Nuxt.js', 'React/Next.js', 'CSS', 'Ethers', 'Viem']
+export const skills = [
+  {
+    name: 'JavaScript',
+    class: 'bg-blue-800 text-blue-200',
+  },
+  {
+    name: 'TypeScript',
+    class: 'bg-sky-800 text-sky-200',
+  },
+  {
+    name: 'Vue/Nuxt.js',
+    class: 'bg-cyan-800 text-cyan-200',
+  },
+  {
+    name: 'React/Next.js',
+    class: 'bg-green-800 text-green-200',
+  },
+  {
+    name: 'Ethers',
+    class: 'bg-lime-800 text-lime-200',
+  },
+  {
+    name: 'CSS',
+    class: 'bg-violet-800 text-violet-200',
+  },
+  {
+    name: 'Viem',
+    class: 'bg-indigo-800 text-indigo-200',
+  },
+]
 
 export const projects = [
   {
