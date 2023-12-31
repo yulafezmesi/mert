@@ -39,7 +39,7 @@
       </h2>
       <p class="text-sm text-slate-700">
         highly skilled frontend developer with a deep love for crafting visually stunning user interfaces using Vue,
-        React frameworks. remote worker, open source contributor, and a lifelong learner.
+        React frameworks. remote worker, open source lover, and a lifelong learner.
       </p>
     </section>
     <section class="flex flex-col gap-3">
@@ -50,7 +50,7 @@
         <div v-for="item in experience" :key="item.company" class="rounded-lg">
           <div class="flex flex-col space-y-1.5">
             <div class="flex items-center justify-between gap-x-2 text-base">
-              <h3 class="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+              <h3 class="inline-flex items-center justify-center gap-x-1.5 font-semibold leading-none">
                 <Component
                   :is="item.website ? 'a' : 'p'" :class="item.website ? 'hover:underline' : ''"
                   :href="item.website"
@@ -67,9 +67,15 @@
                 {{ item.start }}<!-- --> - <!-- --> {{ item.end }}
               </div>
             </div>
-            <h4 class="text-sm leading-none">
-              {{ item.title }}
-            </h4>
+            <div class="items-center justify-between flex">
+              <h4 class="text-sm leading-none">
+                {{ item.title }}
+              </h4>
+              <div class="inline-flex text-slate-700 gap-x-1.5 align-baseline leading-none text-xs">
+                {{ item.location }}
+                <span class="i-tabler-world" />
+              </div>
+            </div>
           </div>
           <div class="text-slate-700 mt-2 text-xs">
             {{ item.description }}

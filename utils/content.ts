@@ -28,16 +28,9 @@ export const experience = [
     start: '2021',
     end: 'Present',
     title: 'Head of Frontend',
-    description: 'leading frontend team, building Web3 DeFi applications. Technologies: Nuxt, Vue, Typescript, Web3, Ethers, Viem',
+    description: `Leading the a frontend team, focusing on creating practical Web3 DeFi applications, working extensively with Nuxt, Vue, TypeScript, Web3.js, Ethers.js and Wiem`,
     website: 'https://instadapp.io',
-  },
-  {
-    company: 'Freelance Career',
-    remote: true,
-    title: 'Frontend Developer',
-    description: 'built many web apps and lending pages during freelance career. Technologies: Nuxt, Vue, React, Typescript, Node.js, Gatsby, Gridsome',
-    start: '',
-    end: '',
+    location: 'Dubai, UAE',
   },
   {
     company: 'Keshif',
@@ -45,8 +38,9 @@ export const experience = [
     start: 'Jul 2021',
     end: 'Oct 2021',
     title: 'Frontend Developer',
-    description: 'built dashboards that includes complex data visualization charts. Technologies: React, Typescript, D3, Node.js, Gatsby',
+    description: `built dashboards that includes complex data visualization charts. Technologies: React, Typescript, D3, Node.js, Gatsby`,
     website: 'https://keshif.me',
+    location: 'USA',
   },
   {
     company: '1984',
@@ -54,7 +48,8 @@ export const experience = [
     start: 'Jan 2021',
     end: 'Aug 2021',
     title: 'Software Developer',
-    description: 'built websites and applications. Technologies: React, Vue, Node.js, Gatsby',
+    description: 'brought beautiful designs to life using technologies React, Vue, Node.js, and Gatsby.',
+    location: 'USA',
   },
   {
     company: 'UMA',
@@ -64,6 +59,15 @@ export const experience = [
     title: 'Software Developer',
     description: 'built internal web applications and workflows. Technologies: SAPUI5, ABAP, Node.js, Vue',
     website: 'https://www.uma.com.tr/',
+    location: 'Turkey',
+  },
+  {
+    company: 'Freelance Career',
+    remote: true,
+    title: 'Frontend Developer',
+    description: `In my time freelancing, I've successfully delivered a variety of web applications and landing pages. Technologies: Nuxt, Vue, React, TypeScript, Node.js, Gatsby, and Gridsome`,
+    start: '2021',
+    end: '2023',
   },
 ]
 
