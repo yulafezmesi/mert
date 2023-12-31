@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 const meta = {
-  description: 'Mert Certel is a frontend developer based in Turkey.',
+  description: 'Mert Certel, frontend developer based in Turkey.',
 }
 
 export default defineNuxtConfig({
