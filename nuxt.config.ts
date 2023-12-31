@@ -25,6 +25,14 @@ export default defineNuxtConfig({
           content: 'https://mertcertel.com/images/og.png',
         },
         {
+          property: 'og:image:width',
+          content: '272',
+        },
+        {
+          property: 'og:image:height',
+          content: '66',
+        },
+        {
           property: 'og:url',
           content: 'https://mertcertel.com',
         },
