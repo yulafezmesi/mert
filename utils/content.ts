@@ -70,31 +70,31 @@ export const experience = [
 export const skills = [
   {
     name: 'JavaScript',
-    class: 'bg-blue-800 text-blue-200',
+    class: 'text-blue-800 bg-blue-200',
   },
   {
     name: 'TypeScript',
-    class: 'bg-sky-800 text-sky-200',
+    class: 'text-sky-800 bg-sky-200',
   },
   {
     name: 'Vue/Nuxt.js',
-    class: 'bg-cyan-800 text-cyan-200',
+    class: 'text-cyan-800 bg-cyan-200',
   },
   {
     name: 'React/Next.js',
-    class: 'bg-green-800 text-green-200',
+    class: 'text-green-800 bg-green-200',
   },
   {
     name: 'Ethers',
-    class: 'bg-lime-800 text-lime-200',
+    class: 'text-lime-800 bg-lime-200',
   },
   {
     name: 'CSS',
-    class: 'bg-violet-800 text-violet-200',
+    class: 'text-violet-800 bg-violet-200',
   },
   {
     name: 'Viem',
-    class: 'bg-indigo-800 text-indigo-200',
+    class: 'text-indigo-800 bg-indigo-200',
   },
 ]
 

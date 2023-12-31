@@ -16,8 +16,8 @@
             </a>
           </address>
           <div class="flex gap-x-1 pt-1 text-sm text-slate-700 print:hidden">
-            <a v-for="item in social" :key="item.name" :aria-label="item.name" :href="item.url" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground h-8 w-8">
-              <span :class="item.icon" />
+            <a v-for="item in social" :key="item.name" rel="noopener noreferrer" target="_blank" :aria-label="item.name" :href="item.url" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground h-8 w-8">
+              <i :class="item.icon" />
             </a>
           </div>
         </div>
