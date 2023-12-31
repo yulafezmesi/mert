@@ -28,7 +28,7 @@ export const experience = [
     start: '2021',
     end: 'Present',
     title: 'Head of Frontend',
-    description: 'leading frontend team, building Web3 DeFi applications. Technologies: Nuxt, Vue, Typescript, Web3, Ethers',
+    description: 'leading frontend team, building Web3 DeFi applications. Technologies: Nuxt, Vue, Typescript, Web3, Ethers, Viem',
     website: 'https://instadapp.io',
   },
   {
