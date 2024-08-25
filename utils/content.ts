@@ -28,7 +28,7 @@ export const experience = [
     start: '2021',
     end: 'Present',
     title: 'Head of Frontend',
-    description: `Leading the a frontend team, focusing on creating practical Web3 DeFi applications, working extensively with Nuxt, Vue, TypeScript, Web3.js, Ethers.js and Wiem`,
+    description: `Leading the frontend team, focusing on creating practical Web3 DeFi applications, working extensively with Nuxt, Vue, Wiem, Wagmi, TypeScript, Web3.js and Ethers.js`,
     website: 'https://instadapp.io',
     location: 'Dubai, UAE',
   },
@@ -104,9 +104,15 @@ export const skills = [
 
 export const projects = [
   {
+    title: 'Fluid',
+    description: 'Fluid is a lending, vault and dex protocol that allows users to earn interest on their assets and borrow against their collateral.',
+    tags: ['Vue', 'Nuxt', 'Wagmi', 'Viem'],
+    website: 'https://fluid.instadapp.io',
+  },
+  {
     title: 'Avocado',
     description: 'Avocado allows users to effortlessly connect with decentralized applications across multiple chains without constantly switching networks.',
-    tags: ['Vue', 'Nuxt', 'Ethers'],
+    tags: ['Vue', 'Nuxt', 'Wagmi', 'Viem'],
     website: 'https://avocado.instadapp.io',
   },
   {

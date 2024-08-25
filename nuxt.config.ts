@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 const meta = {
-  description: 'Mert Certel, frontend developer based in Turkey.',
+  description: 'Mert Certel, senior frontend developer based in Turkey.',
 }
 
 export default defineNuxtConfig({
@@ -114,9 +114,13 @@ export default defineNuxtConfig({
       },
     },
   },
+
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
+
   features: {
     noScripts: true,
   },
+
+  compatibilityDate: '2024-08-25',
 })
