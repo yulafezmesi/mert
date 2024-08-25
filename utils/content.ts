@@ -65,7 +65,7 @@ export const experience = [
     company: 'Freelance Career',
     remote: true,
     title: 'Frontend Developer',
-    description: `In my time freelancing, I've successfully delivered a variety of web applications and landing pages. Technologies: Nuxt, Vue, React, TypeScript, Node.js, Gatsby, and Gridsome`,
+    description: `In my time freelancing, I've successfully delivered a variety of web applications and landing pages. Technologies:Next, Nuxt, Vue, React, TypeScript, Node.js, Gatsby, and Gridsome`,
     start: '2021',
     end: '2023',
   },
